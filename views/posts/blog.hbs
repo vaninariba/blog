@@ -1,0 +1,19 @@
+<div class="row">
+    {{#each post}}
+    <div class="col-md-10">
+        
+                 <h2 class="title">
+                   {{titulo }}
+                </h2>
+                <h5>{{fecha}}</h5>
+                
+      
+              <h4>Autor:{{autor}}</h4>
+              <h3>{{descripcion}}</h3>
+             <a href="/blog/{{_id}}"><button class="btn btn-secondary">Leer Mas</button></a>
+              <hr>
+            </div>
+    
+
+    {{/each}}
+</div>
